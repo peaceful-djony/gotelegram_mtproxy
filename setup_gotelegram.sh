@@ -82,7 +82,7 @@ menu_install() {
         "coursera.org" "udemy.com" "medium.com" "stackoverflow.com"
         "bbc.com" "cnn.com" "reuters.com" "nytimes.com"
         "lenta.ru" "rbc.ru" "ria.ru" "kommersant.ru"
-        "stepik.org" "duolingo.com" "khanacademy.org" "ted.com"
+        "stepik.org" "duolingo.com" "ya.ru" "yandex.com"
     )
     
     for i in "${!domains[@]}"; do
