@@ -78,11 +78,11 @@ menu_install() {
     clear
     echo -e "${CYAN}--- Выберите домен для маскировки (Fake TLS) ---${NC}"
     domains=(
-        "google.com" "wikipedia.org" "habr.com" "github.com" 
+        "google.com" "ozon.ru" "ozon.com" "github.com" 
         "coursera.org" "udemy.com" "medium.com" "stackoverflow.com"
         "bbc.com" "cnn.com" "reuters.com" "nytimes.com"
         "lenta.ru" "rbc.ru" "ria.ru" "kommersant.ru"
-        "stepik.org" "duolingo.com" "ya.ru" "yandex.com"
+        "stepik.org" "ozon.ru" "ya.ru" "yandex.com"
     )
     
     for i in "${!domains[@]}"; do
